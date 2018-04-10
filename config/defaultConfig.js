@@ -16,4 +16,16 @@ module.exports = {
   resolve: {
     extensions: ['.js'],
   },
-};
+}; /*
+      {
+	test: /\.(graphql|gql)$/,
+	exclude: /node_modules/,
+	loader: 'graphql-tag/loader',
+      },
+      {
+	test: /[\\/]node_modules[\\/]/,
+	name: 'vendor',
+	chunks: 'all',
+      },
+
+*/
